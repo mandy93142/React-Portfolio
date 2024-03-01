@@ -6,11 +6,11 @@ function Footer() {
     const icons = [
         {
             name: "fa-brands fa-github",
-            links: "https://github.com"
+            links: "https://github.com/mandy93142"
         },
         {
             name: "fa-brands fa-linkedin",
-            links: "https://linkedin.com"
+            links: "https://www.linkedin.com/in/chiao-han-mandy-chang-267a73191/"
         }
     ]
 
