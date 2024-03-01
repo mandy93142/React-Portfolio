@@ -6,20 +6,21 @@ import Page from "./components/Page";
 import PageContent from "./components/PageContent";
 
 
+
 function App() {
 
   const [pages] = useState([
     {
-      name: "About"
+      name: "about"
     },
     {
-      name: "Portfolio"
+      name: "portfolio"
     },
     {
-      name: "Contact"
+      name: "contact"
     },
     {
-      name: "Resume"
+      name: "resume"
     }
   ])
 

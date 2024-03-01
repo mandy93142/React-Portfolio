@@ -1,8 +1,9 @@
 import React from "react";
-import About from "../pages/about";
-import Portfolio from "../pages/portfolio";
-import Contact from "../pages/contact";
-import Resume from "../pages/resume";
+
+import About from "../../pages/about";
+import Portfolio from "../../pages/portfolio";
+import Contact from "../../pages/contact";
+import Resume from "../../pages/resume";
 import PageContent  from "../PageContent";
 
 function Page({ currentPage }) {
@@ -19,7 +20,6 @@ function Page({ currentPage }) {
             return <About/>
         }
     }
-
 
     return <section>
        <PageContent>{renderPage()}</PageContent>
